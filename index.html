@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Jay</title>
+<meta description="This is Jay's homepage">
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<style>
+* {margin: 0}
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    min-width: 1000px;
+    z-index: -10;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    zoom: 1;
+    background-color:rgb(64, 64, 64);
+    background-image:url(bg.jpg)
+}
+.box {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    padding: 5em;
+    background: #999;
+    border-radius: 6px;
+    cursor: default;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.img {
+  background: #eee;
+  background: url('https://avatars0.githubusercontent.com/u/8603342?v=3&u=d5c989c2b7f53d84c60542d354d7a75a89d9e114&s=140');
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.link {
+  display: flex;
+  margin-top: 1em;
+}
+
+.link div {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0c0c0c;
+}
+
+</style>
+</head>
+<body>
+
+<div class="bg"></div> 
+<img src="https://avatars0.githubusercontent.com/u/8603342?v=3&u=d5c989c2b7f53d84c60542d354d7a75a89d9e114&s=140" style="display:none" />
+<div class="box">
+  <div class="main">
+    <div class='img'></div>
+    <div class="link">
+      <div>
+        <a href="https://github.com/ScorpionJay" target="_blank">Github</a>
+      </div>
+      <div>
+        <a href="http://onejay.top/blog" target="_blank">Blog</a>
+      </div>
+      <div>
+        <a href="http://onejay.top/cv.html" target="_blank">CV</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+console.log('%c终于等到你 还好没放弃','color:red;font-size:40px;font-weight:bold')
+console.log('%cconnect with me by email','color:blue;font-size:20px;font-weight:bold')
+console.log('jay.wang.scorpion@gmail.com')
+</script>
+</body>
+</html>
